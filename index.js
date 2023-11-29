@@ -1,16 +1,9 @@
-//console.log(`Hello`);
-//console.log(`World!`);
+// Variable = A Container that stores a value.
 
-//window.alert(`this is an alert`);
+let fullName = "DemonDev";
+let age = 21;
+let isStudent = false;
 
-
-document.getElementById("myH1").textContent = 'Hello';
-document.getElementById("myP").textContent = `I Like Pizza`;
-// This is a comment
-
-/* 
-   This 
-   Is
-   A
-   Comment
-   */
+document.getElementById("p1").textContent = `Your name is ${fullName}.`;
+document.getElementById("p2").textContent = `You are ${age} years old!`;
+document.getElementById("p3").textContent = `Enrolled in school: ${isStudent}`;
